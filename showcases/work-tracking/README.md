@@ -1,5 +1,7 @@
 # ASO Work Tracking System
 
+[Product portfolio](https://github.com/Mahmutakin99/project-portfolio) · [Feedback](https://github.com/Mahmutakin99/project-portfolio/issues/new/choose)
+
 An internal project and task management platform developed during an Information Technology internship at the ASO 1st Organized Industrial Zone Directorate.
 
 ## Context
@@ -55,3 +57,9 @@ The repository documents a working internal application with browser validation 
 ## Confidentiality
 
 This case study intentionally excludes source code, real data, screenshots, infrastructure identifiers, network topology, and operational configuration. The institutional source repository is not available for public or private third-party distribution.
+
+## Feedback and content rights
+
+Use the issue form for product questions or corrections. Remove personal information from screenshots and reports. This is a public product presentation; application source remains private.
+
+[Content rights](NOTICE.md). Previously licensed assets retain their existing permissions.

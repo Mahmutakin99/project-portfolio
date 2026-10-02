@@ -2,6 +2,8 @@
 
 An iOS real estate marketplace for publishing listings, discovering properties, saving favorites, and connecting prospective users with listing owners.
 
+**Evidence status:** preserved from an existing authored portfolio summary. No corresponding source repository was found in the inspected GitHub inventory, so the implementation claims below have not been independently reverified for this presentation.
+
 ## Problem
 
 Open messaging in a marketplace can create unwanted conversations and make it difficult for listing owners to control who can contact them.
@@ -41,3 +43,4 @@ Swift, UIKit, selected SwiftUI components, MVVM, repository pattern, dependency 
 
 Source code and backend configuration are private. A product demonstration or controlled technical walkthrough may be provided upon request.
 
+No verified screenshots with public-safe listing, owner, or conversation data were available. Store availability and current build status are unverified.

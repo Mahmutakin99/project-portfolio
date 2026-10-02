@@ -41,3 +41,6 @@ Swift, UIKit, GRDB/SQLite, CryptoKit, Firebase Auth, Realtime Database, Cloud Fu
 
 The application uses standard platform cryptographic primitives but has not been presented as independently security-audited. Source code and backend configuration remain private.
 
+## Presentation limits
+
+The case describes the application's development architecture. It does not assert an independent protocol audit, current store release, or measured delivery reliability. No verified screenshots with public-safe paired-user or conversation data were selected for this case.

@@ -1,6 +1,10 @@
 # SubTrack
 
+<img src="../assets/case-studies/subtrack/icon.png" alt="Original SubTrack application icon" width="110">
+
 An iOS subscription manager for tracking recurring payments, upcoming renewals, spending patterns, and subscription history across devices.
+
+**Stage:** implemented application under development; store distribution not verified. **Source:** private.
 
 ## Problem
 
@@ -23,6 +27,10 @@ SubTrack combines subscription tracking, live exchange rates, reminders, analyti
 - StoreKit 2 freemium flow and restore-purchases support
 - Built-in templates for common subscription services
 
+## User workflow
+
+A user starts from a service template or a custom entry, sets price and renewal frequency, then reviews upcoming charges in the home timeline or calendar. Reminders help anticipate renewals; analytics and exports summarize the subscriptions the user has entered. Archiving and pause/resume flows manage subscriptions that are no longer active.
+
 ## Engineering approach
 
 The application uses MVVM, repositories, and dedicated services for persistence, purchases, notifications, exchange rates, export, biometrics, and widget snapshots. A central feature-access evaluator keeps free and premium behavior consistent across screens.
@@ -44,3 +52,10 @@ Swift, UIKit, MVVM, Core Data, CloudKit, StoreKit 2, WidgetKit, UserNotification
 
 Source code is private while the product is under development. A demo build, video walkthrough, or controlled source review may be provided upon request.
 
+## Evidence and limits
+
+The repository README documents the screens, persistence model, exchange-rate fallback, entitlement evaluation, CloudKit policy, widget snapshots, and export services. Several features require the appropriate CloudKit, StoreKit, or device configuration.
+
+This is a recurring-cost organizer, not a bank-connected payment tracker. The current "paid" action advances the recurrence anchor; a separate historical payment ledger is not implemented. Price-rise insights use locally known changes, and widget refresh timing is controlled by iOS.
+
+The visual above is original application artwork. No verified screenshots with public-safe subscription data were available. No current device, purchase, or synchronization validation was performed for this presentation.

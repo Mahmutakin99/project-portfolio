@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+<title id="title">Mahmut Akın — Product portfolio</title>
+<desc id="desc">Native mobile, desktop and full-stack applications. Real interfaces and engineering case studies.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111c33"/><stop offset="1" stop-color="#243453"/></linearGradient></defs>
+<rect width="1280" height="360" rx="28" fill="url(#bg)"/>
+<circle cx="1120" cy="95" r="140" fill="#a7b6e7" opacity=".09"/>
+<circle cx="1050" cy="280" r="190" fill="#ba98ff" opacity=".07"/>
+<rect x="64" y="62" width="46" height="5" rx="2" fill="#c2b0ff"/>
+<text x="64" y="114" fill="#c2b0ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="19" letter-spacing="3">PRODUCTS &amp; ENGINEERING</text>
+<text x="60" y="196" fill="#f7f5ef" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="67" font-weight="700">Mahmut Akın</text>
+<text x="64" y="244" fill="#c8cfdd" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="25">Native mobile. Local desktop. Thoughtful full-stack.</text>
+<text x="64" y="307" fill="#9faec7" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="17">REAL INTERFACES / PRODUCT WORKFLOWS / ENGINEERING CASE STUDIES</text>
+<rect x="938" y="107" width="78" height="146" rx="20" fill="none" stroke="#c2b0ff" stroke-width="3" opacity=".65"/>
+<rect x="1036" y="139" width="161" height="103" rx="13" fill="none" stroke="#9db9de" stroke-width="3" opacity=".6"/>
+<path d="M1116 242v16m-37 0h74" stroke="#9db9de" stroke-width="3" opacity=".6"/>
+</svg>

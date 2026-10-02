@@ -1,6 +1,10 @@
 # Heey
 
+<img src="../assets/case-studies/heey/icon.png" alt="Original Heey application icon" width="110">
+
 A local-first iOS messaging application designed around end-to-end encrypted delivery and device-owned message history.
+
+**Stage:** implemented application under development; store distribution not verified. **Source:** private.
 
 ## Problem
 
@@ -21,6 +25,10 @@ Heey stores conversations and messages in a local GRDB/SQLite database first. Fi
 - APNs and Firebase Cloud Messaging notifications
 - Turkish and English localization
 - Profile and account management
+
+## User workflow
+
+A user creates an account, verifies a phone number, grants contact access, and starts a conversation with a matched contact. Outgoing messages enter local history before upload. The recipient decrypts and stores the message, then acknowledges delivery so the temporary queue entry can be removed. Failed uploads remain visible locally and can be retried.
 
 ## Engineering approach
 
@@ -43,3 +51,8 @@ Swift, UIKit, GRDB/SQLite, CryptoKit, Firebase Auth, Firestore, Storage, Cloud F
 
 The application uses standard platform cryptographic primitives but has not been presented as independently security-audited. Source code and backend configuration remain private; an architecture walkthrough may be provided upon request.
 
+## Evidence and limits
+
+The repository README documents the local SQLite source of truth, materialized conversation index, encrypted delivery queue, acknowledgement flow, account gates, and retry behavior. Cryptographic primitives are an implementation description; forward secrecy, independent protocol assurance, and measured production reliability are not claimed.
+
+The visual above is original application artwork. No verified screenshots with public-safe contacts or conversations were available. No current device run or delivery benchmark was performed for this presentation.

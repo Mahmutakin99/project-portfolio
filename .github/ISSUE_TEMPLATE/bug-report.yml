@@ -1,0 +1,45 @@
+name: Ürün sorunu / Product issue
+description: Bir uygulama veya demo için sorun bildir.
+title: "[Product]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Gerçek kişi, mesaj, konum veya kurumsal verileri paylaşmayın. / Remove personal and institutional data."
+  - type: dropdown
+    id: product
+    attributes:
+      label: Ürün / Product
+      options:
+        - Prizma
+        - Hadi Anlat!
+        - SoulMate
+        - Orbit
+        - PixelMend
+        - Yolcu
+        - SubTrack
+        - Heey
+        - SmartDoc Query
+        - ChatLy
+        - Elerivo
+        - Particle Detector
+        - Work Tracking System
+        - Society CMS
+        - Portfolio / Other
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Sürüm, cihaz ve işletim sistemi / Environment
+  - type: textarea
+    id: steps
+    attributes:
+      label: Adımlar ve beklenen davranış / Steps and expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Gerçek davranış / Actual behavior
+    validations:
+      required: true
