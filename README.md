@@ -29,7 +29,7 @@ Kaynak kodu private depolarda tutulur. Burada kodsuz tanıtımlar ve vaka çalı
 | Hadi Anlat! / Tabu | iOS | [Solo ve takımlı kelime oyunu](https://github.com/Mahmutakin99/Tabu-showcase) |
 | SoulMate | iOS | [Günlük anlar ve sohbet](https://github.com/Mahmutakin99/SoulMate-showcase) · [Vaka](projects/soulmate.md) |
 | Orbit | macOS | [Dairesel başlatıcı](https://github.com/Mahmutakin99/Orbit-showcase) · [v1.5.0 paketi](https://github.com/Mahmutakin99/Orbit-showcase/releases/tag/v1.5.0) |
-| PixelMend | Masaüstü / macOS RC | [Yerel fotoğraf işleme](https://github.com/Mahmutakin99/pixelmend-showcase) |
+| PixelMend | macOS Apple Silicon / Windows x64 RC | [Yerel fotoğraf işleme](https://github.com/Mahmutakin99/pixelmend-showcase) · [RC.2 kurulum paketleri](https://github.com/Mahmutakin99/pixelmend-showcase/releases/tag/v1.0.0-rc.2) |
 | Yolcu | Mobil web / PWA prototipi | [Dijital karakter ve yolculuk deneyimi](https://github.com/Mahmutakin99/project-portfolio/tree/main/showcases/Yolcu) |
 
 Görseller gerçek uygulamalardan ve belirtilmiş örnek veri akışlarından gelir. Her vitrinde sürüm, görsel kökeni ve kullanılabilirlik bilgisi bulunur.
